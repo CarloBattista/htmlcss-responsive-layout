@@ -26,4 +26,41 @@ body {
     display: none;
 }
 
+.listItem{
+    margin-right: 30px;
+}
+
+.listItem:last-child{
+    margin-right: 0;
+}
+
+.listItem a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.box_icon{
+    cursor: pointer;
+}
+
+.box_icon .fa-solid{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Main */
+
+
+
 /* Media Query */
+
+@media only screen and (min-width: 768px) {
+    .nav_menu{
+        display: flex;
+    }
+
+    .container_menu_mobile{
+        display: none;
+    }
+}

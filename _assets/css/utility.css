@@ -87,3 +87,24 @@
     width: 80%;
     margin: 0 auto;
 }
+
+/* Button */
+
+.btn{
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity 200ms ease;
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+.btn_white{
+    background-color: #fff;
+}
+
+.btn_white a{
+    color: #000;
+}
