@@ -57,6 +57,7 @@ body {
 
 .container_cards {
     width: 100%;
+    padding-top: 50px;
 }
 
 .primary_line{
@@ -81,6 +82,35 @@ body {
 
 .card_large{
     width: 100%;
+}
+
+.container_icon{
+    text-align: center;
+}
+
+.container_icon .fa-solid{
+    color: #0084FD;
+    font-size: 50px;
+}
+
+.container_heading{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heading_card{
+    color: #0084FD;
+}
+
+.container_description{
+    text-align: center;
+    width: 100%;
+}
+
+.description{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* Media Query */
