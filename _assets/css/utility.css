@@ -28,6 +28,10 @@
     background-color: #B5DDFF;
 }
 
+.bg-violet{
+    background-color: #9792E4;
+}
+
 /* color */
 .color-white{
     color: #fff;
@@ -39,6 +43,19 @@
 
 .color-grey{
     color: #aaa;
+}
+
+/* Text */
+.t-left{
+    text-align: left;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.t-right{
+    text-align: right;
 }
 
 /* position */
@@ -88,13 +105,27 @@
     margin: 0 auto;
 }
 
+.margin-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* Button */
 
 .btn{
-    padding: 5px 15px;
     border-radius: 30px;
     cursor: pointer;
     transition: opacity 200ms ease;
+}
+
+.btn_small{
+    padding: 5px 15px;
+}
+
+.btn_large{
+    padding: 10px 35px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .btn:hover{
@@ -107,4 +138,9 @@
 
 .btn_white a{
     color: #000;
+}
+
+.btn_blue{
+    background-color: #0084FD;
+    color: #fff;
 }

@@ -55,9 +55,11 @@ body {
     top: 70px;
 }
 
+/* Section cards */
+
 .container_cards {
     width: 100%;
-    padding-top: 50px;
+    padding: 50px 0 70px;
 }
 
 .primary_line{
@@ -82,6 +84,40 @@ body {
 
 .card_large{
     width: 100%;
+}
+
+.card_large .left_card .container_heading,
+.card_large .left_card .container_description{
+    text-align: left;
+}
+
+.card_large .left_card .container_description{
+    width: 45%;
+}
+
+.container_btn{
+    margin: 40px 0;
+}
+
+.btn .fa-brands{
+    margin-right: 10px;
+}
+
+.card_large{
+    display: block;
+}
+
+.right_card{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.right_card img{
+    width: 70%;
 }
 
 .container_icon{
@@ -113,6 +149,88 @@ body {
     font-weight: 400;
 }
 
+/* Section strategic plan */
+
+.section_strategic_plan{
+    width: 100%;
+    padding: 60px 0;
+}
+
+.section_strategic_plan .margin{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_row{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_plan{
+    margin-right: 30px;
+}
+
+.card_plan .container_image{
+    margin-bottom: 90px;
+}
+
+.card_plan .container_hed_box{
+    margin-bottom: 50px;
+}
+
+.card_plan_focussed{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 20%;
+}
+
+.container_image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_image img{
+    width: 50%;
+}
+
+.container_hed_box{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container_desc{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.container_cta_link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cta_radius{
+    background-color: #9792E4;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta_radius:hover{
+    opacity: .7;
+}
+
+/* Section partners */
+
 /* Media Query */
 
 @media only screen and (min-width: 768px) {
@@ -122,6 +240,10 @@ body {
 
     .container_menu_mobile {
         display: none;
+    }
+
+    .right_card img{
+        width: 90%;
     }
 }
 
@@ -133,9 +255,23 @@ body {
 
     .card_large{
         width: 66%;
+        display: flex;
     }
 
-    .primary_line{
-        margin-bottom: 20px;
+    .right_card{
+        justify-content: center;
+    }
+
+    .right_card img{
+        width: 76%;
+    }
+
+    .container_row{
+        flex-direction: row;
+    }
+
+    .section_strategic_plan .margin{
+        width: 60%;
+        margin: 0 auto;
     }
 }
