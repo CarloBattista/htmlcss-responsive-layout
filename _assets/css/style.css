@@ -434,6 +434,30 @@ body {
     text-decoration: underline;
 }
 
+/* Footer */
+.footer{
+    padding: 40px 0;
+}
+
+.footer div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer p:first-child{
+    margin-bottom: 60px;
+}
+
+.footer p a {
+    color: #9792E4;
+    text-decoration: underline;
+}
+
 /* Media Query */
 
 /* Tablet */
@@ -472,5 +496,9 @@ body {
     }
     .container_user{
         width: 30%;
+    }
+    .footer div{
+        width: 40%;
+        margin: 0 auto;
     }
 }
