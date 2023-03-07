@@ -307,63 +307,63 @@ body {
 
 /* Section benefits */
 
+.card_b{
+    width: 100%;
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
 
+.index_card{
+    color: #9792E4;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.subHeading_card{
+    color: #9792E4;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.description_benefit{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
 /* Media Query */
 
-@media only screen and (min-width: 768px) {
-    .nav_menu {
-        display: flex;
-    }
-
-    .container_menu_mobile {
-        display: none;
-    }
-
-    .right_card img{
-        width: 90%;
-    }
-
-    .card_partner{
-        flex-direction: row;
-    }
-
-    .info_testimonials{
-        text-align: left;
-        margin-left: 20px;
-    }
-
-    .partner_testimonial{
-        margin: 0;
-        margin-bottom: 20px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
+/* Tablet */
+@media only screen and (min-width: 780px) {
     .card{
         width: 32%;
         margin-bottom: 0;
     }
-
     .card_large{
         width: 66%;
-        display: flex;
+        margin-bottom: 0;
     }
-
-    .right_card{
-        justify-content: center;
-    }
-
-    .right_card img{
-        width: 76%;
-    }
-
-    .container_row{
+    .card_partner {
         flex-direction: row;
     }
+}
 
-    .section_strategic_plan .margin{
-        width: 60%;
-        margin: 0 auto;
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    .nav_menu{
+        display: flex;
+    }
+    .container_menu_mobile{
+        display: none;
+    }
+    .card_large{
+        display: flex;
+    }
+    .container_row {
+        flex-direction: row;
     }
 }
