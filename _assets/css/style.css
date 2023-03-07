@@ -347,8 +347,11 @@ body {
         width: 66%;
         margin-bottom: 0;
     }
-    .card_partner {
+    .card_partner{
         flex-direction: row;
+    }
+    .card_b{
+        width: calc(100% / 2 - 2%);
     }
 }
 
@@ -363,7 +366,10 @@ body {
     .card_large{
         display: flex;
     }
-    .container_row {
+    .container_row{
         flex-direction: row;
+    }
+    .card_b{
+        width: calc(100% / 3 - 2%);
     }
 }
