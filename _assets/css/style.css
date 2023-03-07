@@ -166,10 +166,6 @@ body {
     flex-direction: column;
 }
 
-.card_plan{
-    margin-right: 30px;
-}
-
 .card_plan .container_image{
     margin-bottom: 90px;
 }
@@ -185,14 +181,14 @@ body {
     margin-top: 20%;
 }
 
-.container_image{
+.container_image_card{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container_image img{
-    width: 50%;
+.container_image_card img{
+    width: 100%;
 }
 
 .container_hed_box{
@@ -307,6 +303,15 @@ body {
 }
 
 /* Section benefits */
+.benefits{
+    padding: 30px 0 0;
+}
+
+.container_heading_benefits{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
 .card_b{
     width: 100%;
@@ -484,6 +489,9 @@ body {
     .card_large,
     .container_about{
         display: flex;
+    }
+    .card_plan{
+        margin-right: 10%;
     }
     .container_menu_mobile{
         display: none;
